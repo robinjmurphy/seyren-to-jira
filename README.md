@@ -1,6 +1,6 @@
 # seyren-to-jira
 
-> A webhook server that creates Jira tickets in response to Seyren alerts
+> A webhook server that creates Jira tickets in response to [Seyren](https://github.com/scobal/seyren) alerts
 
 ## Installation
 
