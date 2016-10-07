@@ -1,0 +1,43 @@
+{
+  "name": "seyren-to-jira",
+  "version": "1.0.0",
+  "description": "A webhook server that creates Jira tickets in response to Seyren alerts",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint .",
+    "posttest": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robinjmurphy/seyren-to-jira.git"
+  },
+  "bin": {
+    "seyren-to-jira": "./lib/cli.js"
+  },
+  "keywords": [
+    "seyren",
+    "jira",
+    "webhook"
+  ],
+  "author": "robin@robinmurphy.co.uk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robinjmurphy/seyren-to-jira/issues"
+  },
+  "homepage": "https://github.com/robinjmurphy/seyren-to-jira#readme",
+  "dependencies": {
+    "async": "^2.0.1",
+    "commander": "^2.9.0",
+    "express": "^4.14.0",
+    "flashheart": "^2.5.1",
+    "winston": "^2.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.7.1",
+    "eslint-config-iplayer-es6": "^3.0.1",
+    "eslint-plugin-mocha": "^4.6.0",
+    "mocha": "^3.1.0",
+    "supertest": "^2.0.0"
+  }
+}
